@@ -1,0 +1,6 @@
+<snippet>
+<content><![CDATA[
+from django.db.models import Q
+]]></content>
+<tabTrigger>dj-Q</tabTrigger><scope>source.python</scope>
+</snippet>

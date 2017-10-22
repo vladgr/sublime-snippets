@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+def to_representation(self, instance):
+    s = ${1}Serializer(instance)
+    return s.data
+]]></content>
+<tabTrigger>dj-to_representation</tabTrigger>
+<scope>source.python</scope>
+</snippet>

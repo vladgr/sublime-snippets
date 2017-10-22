@@ -1,0 +1,18 @@
+<snippet>
+<content><![CDATA[
+@admin.register(TestPhotos)
+class TestPhotosAdmin(admin.ModelAdmin):
+    list_display = ('name', 'upload_photos')
+    exclude = ('photos',)
+
+    class Media:
+        js = (
+            'admincustom/js/tiny_mce/tiny_mce.js',
+            'admincustom/js/settings.js',
+            'admincustom/js/a.js'
+        )
+        css = {'all': ('admincustom/css/font-awesome.min.css',)}
+]]></content>
+<tabTrigger>dj-PhotosAdmin</tabTrigger>
+<scope>source.python</scope>
+</snippet>

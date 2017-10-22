@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+const ${0} = (props) => {
+    return (
+
+    )
+}
+]]></content>
+<tabTrigger>react-ComponentFunction</tabTrigger>
+<scope>source.js</scope>
+</snippet>

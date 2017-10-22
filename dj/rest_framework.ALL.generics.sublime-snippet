@@ -1,0 +1,15 @@
+<snippet>
+<content><![CDATA[
+generics.CreateAPIView
+generics.ListAPIView
+generics.RetrieveAPIView
+generics.DestroyAPIView
+generics.UpdateAPIView
+generics.ListCreateAPIView
+generics.RetrieveUpdateAPIView
+generics.RetrieveDestroyAPIView
+generics.RetrieveUpdateDestroyAPIView
+]]></content>
+<tabTrigger>dj-rest_framework.ALL.generics</tabTrigger>
+<scope>source.python</scope>
+</snippet>

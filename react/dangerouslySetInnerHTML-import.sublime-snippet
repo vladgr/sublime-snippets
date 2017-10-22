@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+import { dangerouslySetInnerHTML } from 'react'
+]]></content>
+<tabTrigger>react-dangerouslySetInnerHTML-import</tabTrigger>
+<scope>source.js</scope>
+</snippet>

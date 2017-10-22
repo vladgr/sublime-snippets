@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from django.core.files.uploadedfile import SimpleUploadedFile
+]]></content>
+<tabTrigger>dj-SimpleUploadedFile</tabTrigger>
+<scope>source.python</scope>
+</snippet>

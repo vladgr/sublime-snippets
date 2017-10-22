@@ -1,0 +1,12 @@
+<snippet>
+<content><![CDATA[
+validators=[
+    RegexValidator(
+        regex='^[A-Za-z0-9_]+$',
+        message='Please use alphanumeric (abc123_) for this field'
+    )
+]
+]]></content>
+<tabTrigger>dj-RegexValidator_Example</tabTrigger>
+<scope>source.python</scope>
+</snippet>

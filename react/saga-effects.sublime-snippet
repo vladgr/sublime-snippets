@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+import { take, put, call, fork, select } from 'redux-saga/effects'
+]]></content>
+<tabTrigger>react-saga-effects</tabTrigger>
+<scope>source.js</scope>
+</snippet>

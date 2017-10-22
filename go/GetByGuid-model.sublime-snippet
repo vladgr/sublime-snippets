@@ -1,0 +1,17 @@
+<snippet>
+<content><![CDATA[
+func (${2}m *${1}Manager) GetByGuid(guid string) *${1} {
+    ${2} := &${1}{}
+    err := db.Model(${2}).
+        Column("${3}.*").
+        Where("${3}.guid = ?", guid).
+        Select()
+    if err != nil {
+        return nil
+    }
+    return ${2}
+}
+]]></content>
+<tabTrigger>go-GetByGuid-model</tabTrigger>
+<scope>source.go</scope>
+</snippet>

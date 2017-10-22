@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+name = factory.Sequence(lambda n: 'name{0}'.format(n))
+]]></content>
+<tabTrigger>dj-factory.Sequence</tabTrigger>
+<scope>source.python</scope>
+</snippet>

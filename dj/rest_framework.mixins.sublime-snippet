@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from rest_framework import mixins
+]]></content>
+<tabTrigger>dj-rest_framework.mixins</tabTrigger>
+<scope>source.python</scope>
+</snippet>

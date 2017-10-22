@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from django.core.files.base import ContentFile
+]]></content>
+<tabTrigger>dj-ContentFile</tabTrigger>
+<scope>source.python</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+<content><![CDATA[
+{% url '$1' %}
+]]></content>
+<tabTrigger>dh-url</tabTrigger>
+</snippet>

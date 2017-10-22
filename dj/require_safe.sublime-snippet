@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from django.views.decorators.http import require_safe
+]]></content>
+<tabTrigger>dj-require_safe</tabTrigger>
+<scope>source.python</scope>
+</snippet>

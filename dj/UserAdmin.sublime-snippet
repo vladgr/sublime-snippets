@@ -1,0 +1,6 @@
+<snippet>
+<content><![CDATA[
+from django.contrib.auth.admin import UserAdmin
+]]></content>
+<tabTrigger>dj-UserAdmin</tabTrigger><scope>source.python</scope>
+</snippet>

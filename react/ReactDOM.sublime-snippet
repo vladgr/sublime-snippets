@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+import ReactDOM from 'react-dom'
+]]></content>
+<tabTrigger>react-ReactDOM</tabTrigger>
+<scope>source.js</scope>
+</snippet>

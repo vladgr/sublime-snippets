@@ -1,0 +1,6 @@
+<snippet>
+<content><![CDATA[
+from django.core.mail import EmailMessage
+]]></content>
+<tabTrigger>dj-EmailMessage</tabTrigger><scope>source.python</scope>
+</snippet>

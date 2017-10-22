@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+t: state.translation.obj
+]]></content>
+<tabTrigger>react-t-state</tabTrigger>
+<scope>source.js</scope>
+</snippet>

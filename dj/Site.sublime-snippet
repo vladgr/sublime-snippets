@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from django.contrib.sites.models import Site
+]]></content>
+<tabTrigger>dj-Site</tabTrigger>
+<scope>source.python</scope>
+</snippet>

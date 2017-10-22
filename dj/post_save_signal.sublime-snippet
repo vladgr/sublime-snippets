@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+from django.dispatch import receiver
+@receiver(post_save, sender=Computer)
+def user_has_computer(sender, instance, created, **kwargs):
+    instance.user.has_computer = True
+    instance.user.save()
+]]></content>
+<tabTrigger>dj-post_save_signal</tabTrigger>
+<scope>source.python</scope>
+</snippet>

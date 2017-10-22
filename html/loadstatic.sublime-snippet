@@ -1,0 +1,6 @@
+<snippet>
+<content><![CDATA[
+{% load staticfiles %}
+]]></content>
+<tabTrigger>loadstatic</tabTrigger>
+</snippet>

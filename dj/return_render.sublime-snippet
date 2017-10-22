@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+request, item = Menu.process_url(request)
+ctx = {'item': item}
+return render(request, item.tpl, ctx)
+]]></content>
+<tabTrigger>dj-return_render</tabTrigger>
+<scope>source.python</scope>
+</snippet>

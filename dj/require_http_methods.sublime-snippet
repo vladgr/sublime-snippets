@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from django.views.decorators.http import require_http_methods
+]]></content>
+<tabTrigger>dj-require_http_methods</tabTrigger>
+<scope>source.python</scope>
+</snippet>

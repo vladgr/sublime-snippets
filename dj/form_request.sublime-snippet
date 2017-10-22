@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+def __init__(self, *args, **kwargs):
+    self.request = kwargs.pop('request', None)
+    super().__init__(*args, **kwargs)
+]]></content>
+<tabTrigger>dj-form_request</tabTrigger>
+<scope>source.python</scope>
+</snippet>

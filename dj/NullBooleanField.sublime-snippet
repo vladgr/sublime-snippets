@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from django.db.models import NullBooleanField
+]]></content>
+<tabTrigger>dj-NullBooleanField</tabTrigger>
+<scope>source.python</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+data = json.dumps(dic)
+response = client.put(url, data, content_type='application/json')
+]]></content>
+<tabTrigger>dj-client.put</tabTrigger>
+<scope>source.python</scope>
+</snippet>

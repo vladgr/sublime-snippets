@@ -1,0 +1,21 @@
+<snippet>
+<content><![CDATA[
+componentDidMount () {
+    document.addEventListener('click', this.handleClick)
+}
+
+componentWillUnmount () {
+    document.removeEventListener('click', this.handleClick)
+}
+
+handleClick(e){
+    const area = ReactDOM.findDOMNode(this)
+
+    if (area && !area.contains(e.target)) {
+        this.setState({isOpened: false})
+    }
+}
+]]></content>
+<tabTrigger>react-handle-click-outside</tabTrigger>
+<scope>source.js</scope>
+</snippet>

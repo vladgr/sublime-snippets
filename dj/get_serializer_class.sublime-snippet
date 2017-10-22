@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+def get_serializer_class(self):
+    self.request
+    return SomeSerializer
+]]></content>
+<tabTrigger>dj-get_serializer_class</tabTrigger>
+<scope>source.python</scope>
+</snippet>

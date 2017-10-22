@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+'\u00a0'
+]]></content>
+<tabTrigger>react-&nbsp;</tabTrigger>
+<scope>source.js</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+<content><![CDATA[
+list_display = ('', )
+]]></content>
+<tabTrigger>dj-list_display</tabTrigger><scope>source.python</scope>
+</snippet>

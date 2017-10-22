@@ -1,0 +1,13 @@
+<snippet>
+<content><![CDATA[
+func checkErr(err error) {
+	if err != nil {
+		fmt.Println(err.Error())
+		log.SetFlags(log.Llongfile | log.Ldate | log.Ltime)
+		log.Fatalln(err.Error())
+	}
+}
+]]></content>
+<tabTrigger>go-checkError</tabTrigger>
+<scope>source.go</scope>
+</snippet>

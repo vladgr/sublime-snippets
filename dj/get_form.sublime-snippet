@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+def get_form(self, request, obj=None, **kwargs):
+    if obj is None:
+        return MenuAddForm
+    else:
+        return super().get_form(request, obj, **kwargs)
+]]></content>
+<tabTrigger>dj-get_form</tabTrigger><scope>source.python</scope>
+</snippet>

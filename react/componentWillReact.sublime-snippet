@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+componentWillReact(){
+}
+]]></content>
+<tabTrigger>react-componentWillReact</tabTrigger>
+<scope>source.js</scope>
+</snippet>

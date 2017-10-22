@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+search_fields = ('', '')
+]]></content>
+<tabTrigger>dj-search_fields</tabTrigger>
+<scope>source.python</scope>
+</snippet>

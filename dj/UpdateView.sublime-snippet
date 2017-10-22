@@ -1,0 +1,6 @@
+<snippet>
+<content><![CDATA[
+from django.views.generic import UpdateView
+]]></content>
+<tabTrigger>dj-UpdateView</tabTrigger><scope>source.python</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+def has_module_permission(self, request):
+    return False
+]]></content>
+<tabTrigger>dj-has_module_permission</tabTrigger><scope>source.python</scope>
+</snippet>

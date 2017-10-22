@@ -1,0 +1,6 @@
+<snippet>
+<content><![CDATA[
+from django.dispatch import receiver
+]]></content>
+<tabTrigger>dj-receiver</tabTrigger><scope>source.python</scope>
+</snippet>

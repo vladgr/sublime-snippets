@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+import Select from 'react-select'
+]]></content>
+<tabTrigger>react-Select</tabTrigger>
+<scope>source.js</scope>
+</snippet>

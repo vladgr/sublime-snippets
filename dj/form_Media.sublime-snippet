@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+class Media:
+    css = {
+        'all': ('pretty.css',)
+    }
+    js = ('animations.js', 'actions.js')
+]]></content>
+<tabTrigger>dj-form_Media</tabTrigger>
+<scope>source.python</scope>
+</snippet>

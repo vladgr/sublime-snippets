@@ -1,0 +1,20 @@
+<snippet>
+<content><![CDATA[
+func (u *User) GetMessages(v url.Values) ([]*Message, *helpers.Pagination) {
+	messages := []*Message{}
+
+	total, err := db.Model(&Message{}).Where("user_id = ?", u.Id).Count()
+	checkErr(err)
+
+	pagination := helpers.NewPagination(total, v)
+
+	db.Model(&messages).
+		Where("user_id = ?", u.Id).
+		Apply(pagination.Pager()).
+		Select()
+	return messages, pagination
+}
+]]></content>
+<tabTrigger>go-model-pagination</tabTrigger>
+<scope>source.go</scope>
+</snippet>

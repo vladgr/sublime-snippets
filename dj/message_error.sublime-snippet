@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+messages.error(request, '')
+]]></content>
+<tabTrigger>dj-message_error</tabTrigger>
+<scope>source.python</scope>
+</snippet>

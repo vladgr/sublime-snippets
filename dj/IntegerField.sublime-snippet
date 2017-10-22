@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from django.db.models import IntegerField
+]]></content>
+<tabTrigger>dj-IntegerField</tabTrigger>
+<scope>source.python</scope>
+</snippet>

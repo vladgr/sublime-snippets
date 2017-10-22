@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from rest_framework.decorators import api_view
+]]></content>
+<tabTrigger>dj-api_view</tabTrigger>
+<scope>source.python</scope>
+</snippet>

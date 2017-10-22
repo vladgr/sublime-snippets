@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+@transaction.atomic
+]]></content>
+<tabTrigger>dj-atomic</tabTrigger>
+<scope>source.python</scope>
+</snippet>

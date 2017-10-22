@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+def get_admin_changelist_url(self):
+    s = 'admin:{0}_{1}_changelist'.format(
+        self._meta.app_label, self._meta.model_name)
+    return reverse(s)
+]]></content>
+<tabTrigger>dj-get_admin_changelist_url</tabTrigger><scope>source.python</scope>
+</snippet>

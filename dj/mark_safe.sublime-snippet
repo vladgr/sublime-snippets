@@ -1,0 +1,6 @@
+<snippet>
+<content><![CDATA[
+from django.utils.html import mark_safe
+]]></content>
+<tabTrigger>dj-mark_safe</tabTrigger><scope>source.python</scope>
+</snippet>

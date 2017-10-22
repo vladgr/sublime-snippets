@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from django.core.validators import validate_comma_separated_integer_list
+]]></content>
+<tabTrigger>dj-CommaSeparatedIntegerField</tabTrigger>
+<scope>source.python</scope>
+</snippet>

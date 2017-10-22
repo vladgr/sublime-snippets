@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+factory.lazy_attribute(lambda _: ${1})
+]]></content>
+<tabTrigger>dj-factory_lazy_attribute</tabTrigger>
+<scope>source.python</scope>
+</snippet>

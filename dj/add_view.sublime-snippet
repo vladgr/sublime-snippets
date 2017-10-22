@@ -1,0 +1,21 @@
+<snippet>
+<content><![CDATA[
+def add_view(self, request, extra_context=None):
+    title = 'Add either "Server" or "Project" config.'
+    extra_context = extra_context or {}
+    extra_context['title'] = title
+    self.fields = (
+        'server',
+        'project',
+        'item',
+        'comment',
+        'filename',
+        'is_active',
+        'data'
+    )
+    self.readonly_fields = ()
+    return super().add_view(request, extra_context=extra_context)
+]]></content>
+<tabTrigger>dj-add_view</tabTrigger>
+<scope>source.python</scope>
+</snippet>

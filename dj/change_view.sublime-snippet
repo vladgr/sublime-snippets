@@ -1,0 +1,16 @@
+<snippet>
+<content><![CDATA[
+def change_view(self, request, object_id):
+    self.readonly_fields = ('server', 'project', 'item', 'filename')
+
+    obj = Conf.objects.get(id=object_id)
+    fields = ('item', 'comment', 'filename', 'is_active', 'data')
+    if obj.type == 'S':
+        self.fields = ('server',) + fields
+    elif obj.type == 'P':
+        self.fields = ('project',) + fields
+    return super().change_view(request, object_id)
+]]></content>
+<tabTrigger>dj-change_view</tabTrigger>
+<scope>source.python</scope>
+</snippet>

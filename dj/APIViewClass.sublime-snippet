@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+class ${1}(AuthMixin, APIView):
+    def get(self, request, **kwargs):
+        return Response()
+]]></content>
+<tabTrigger>dj-APIViewClass</tabTrigger>
+<scope>source.python</scope>
+</snippet>

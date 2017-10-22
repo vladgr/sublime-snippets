@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from django.http import HttpResponseBadRequest
+]]></content>
+<tabTrigger>dj-HttpResponseBadRequest</tabTrigger>
+<scope>source.python</scope>
+</snippet>

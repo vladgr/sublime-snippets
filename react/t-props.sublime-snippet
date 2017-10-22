@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+t: PropTypes.object
+]]></content>
+<tabTrigger>react-t-props</tabTrigger>
+<scope>source.js</scope>
+</snippet>

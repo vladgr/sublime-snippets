@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+const mapStateToProps = (state) => ({
+    param: state.value
+})
+]]></content>
+<tabTrigger>react-mapStateToProps</tabTrigger>
+<scope>source.js</scope>
+</snippet>

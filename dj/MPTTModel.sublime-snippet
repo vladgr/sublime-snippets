@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from mptt.models import MPTTModel
+]]></content>
+<tabTrigger>dj-MPTTModel</tabTrigger>
+<scope>source.python</scope>
+</snippet>

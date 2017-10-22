@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from django.contrib.postgres.fields import ArrayField
+]]></content>
+<tabTrigger>dj-ArrayField</tabTrigger>
+<scope>source.python</scope>
+</snippet>

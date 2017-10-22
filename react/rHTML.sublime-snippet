@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+import { rHTML } from 'services/helpers'
+]]></content>
+<tabTrigger>react-rHTML</tabTrigger>
+<scope>source.js</scope>
+</snippet>

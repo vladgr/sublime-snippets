@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from django.core.management.base import BaseCommand
+]]></content>
+<tabTrigger>dj-BaseCommand</tabTrigger>
+<scope>source.python</scope>
+</snippet>

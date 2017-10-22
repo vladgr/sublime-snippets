@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+import DatePicker from 'react-datepicker'
+]]></content>
+<tabTrigger>react-DatePiker</tabTrigger>
+<scope>source.js</scope>
+</snippet>

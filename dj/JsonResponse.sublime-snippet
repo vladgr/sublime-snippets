@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from django.http import JsonResponse
+]]></content>
+<tabTrigger>dj-JsonResponse</tabTrigger>
+<scope>source.python</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from rest_framework.views import APIView
+]]></content>
+<tabTrigger>dj-APIView</tabTrigger>
+<scope>source.python</scope>
+</snippet>

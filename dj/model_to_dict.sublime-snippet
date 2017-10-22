@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from django.forms.models import model_to_dict
+]]></content>
+<tabTrigger>dj-model_to_dict</tabTrigger>
+<scope>source.python</scope>
+</snippet>

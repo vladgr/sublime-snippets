@@ -1,0 +1,14 @@
+<snippet>
+<content><![CDATA[
+@property
+def ${1:}(self):
+    return self._${1:}
+
+@${1:}.setter
+def ${1:}(self, value):
+    self._${1:} = value
+]]></content>
+<tabTrigger>py-getter-setter</tabTrigger>
+<scope>source.python</scope>
+</snippet>
+

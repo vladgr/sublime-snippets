@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from django.test.client import Client
+]]></content>
+<tabTrigger>dj-django.test.client</tabTrigger>
+<scope>source.python</scope>
+</snippet>

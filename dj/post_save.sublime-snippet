@@ -1,0 +1,6 @@
+<snippet>
+<content><![CDATA[
+from django.db.models.signals import post_save
+]]></content>
+<tabTrigger>dj-post_save</tabTrigger><scope>source.python</scope>
+</snippet>

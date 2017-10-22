@@ -1,0 +1,16 @@
+<snippet>
+<content><![CDATA[
+<ReactCSSTransitionGroup
+    transitionLeave
+    transitionName="animationpic"
+    transitionEnterTimeout={200}
+    transitionLeaveTimeout={2000}>
+
+    {someCondition &&
+        <div key="some_unique" />
+    }
+</ReactCSSTransitionGroup>
+]]></content>
+<tabTrigger>react-ReactCSSTransitionGroup-block</tabTrigger>
+<scope>source.js</scope>
+</snippet>

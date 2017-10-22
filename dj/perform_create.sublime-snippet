@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+def perform_create(self, serializer):
+    queryset = Some.objects.filter(user=self.request.user)
+    if some():
+        raise ValidationError('You have already signed up')
+    serializer.save(user=self.request.user)
+]]></content>
+<tabTrigger>dj-perform_create</tabTrigger>
+<scope>source.python</scope>
+</snippet>

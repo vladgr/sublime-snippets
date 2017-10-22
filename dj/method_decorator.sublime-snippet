@@ -1,0 +1,6 @@
+<snippet>
+<content><![CDATA[
+from django.utils.decorators import method_decorator
+]]></content>
+<tabTrigger>dj-method_decorator</tabTrigger><scope>source.python</scope>
+</snippet>

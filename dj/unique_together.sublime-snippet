@@ -1,0 +1,6 @@
+<snippet>
+<content><![CDATA[
+unique_together = ('', '')
+]]></content>
+<tabTrigger>dj-unique_together</tabTrigger><scope>source.python</scope>
+</snippet>

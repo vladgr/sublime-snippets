@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from django.db.models import PositiveSmallIntegerField
+]]></content>
+<tabTrigger>dj-PositiveIntegerField</tabTrigger>
+<scope>source.python</scope>
+</snippet>

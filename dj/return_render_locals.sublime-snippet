@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+return render(request, item.tpl, locals())
+]]></content>
+<tabTrigger>dj-return_render_locals</tabTrigger>
+<scope>source.python</scope>
+</snippet>

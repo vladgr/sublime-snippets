@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,400italic&subset=latin,cyrillic-ext);
+font-family: 'Roboto', sans-serif;
+]]></content>
+<tabTrigger>css-roboto_font</tabTrigger>
+<scope>source.css</scope>
+</snippet>

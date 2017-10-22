@@ -1,0 +1,22 @@
+<snippet>
+<content><![CDATA[
+def changelist_view(self, request, extra_context=None):
+    # логика на основе переданных параметров
+    # переданный параметр должен быть полем модели 
+    # или методом - который сделан для админки
+    if request.GET.get('some'):
+        self.list_display = ('id', 'someother')
+    else:
+        # этот шаг обязателен, иначе после переопределения не будет возврата
+        self.list_display = ('id', 'field')
+    return super().changelist_view(request, extra_context)
+
+    # доступ к queryset
+    response = super().changelist_view(request, extra_context)
+    cl = response.context_data["cl"]  # cl means ChangeList
+    queryset = cl.queryset
+    return response
+]]></content>
+<tabTrigger>dj-changelist_view</tabTrigger>
+<scope>source.python</scope>
+</snippet>

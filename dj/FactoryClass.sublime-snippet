@@ -1,0 +1,15 @@
+<snippet>
+<content><![CDATA[
+class ${1}Factory(factory.django.DjangoModelFactory):
+    class Meta:
+        model = ${1}
+
+    name = factory.lazy_attribute(lambda _: Faker().word()[:20])
+
+    @staticmethod
+    def get():
+        return ${1}Factory()
+]]></content>
+<tabTrigger>dj-FactoryClass</tabTrigger>
+<scope>source.python</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+import { delay } from 'redux-saga'
+yield call(delay, 100)
+]]></content>
+<tabTrigger>react-delay</tabTrigger>
+<scope>source.js</scope>
+</snippet>

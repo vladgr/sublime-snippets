@@ -1,0 +1,20 @@
+<snippet>
+<content><![CDATA[
+def to_internal_value(self, data):
+    data = super().to_internal_value(data)
+
+    some = data.get('some')
+    do some processing
+
+    if something wrong:
+        raise ValidationError({
+            'some': 'This field is required.'
+        })
+
+    return data
+
+    or return any other data {}
+]]></content>
+<tabTrigger>dj-rest_framework_to_internal_value</tabTrigger>
+<scope>source.python</scope>
+</snippet>

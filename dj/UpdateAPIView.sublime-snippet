@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+generics.UpdateAPIView
+]]></content>
+<tabTrigger>dj-UpdateAPIView</tabTrigger>
+<scope>source.python</scope>
+</snippet>

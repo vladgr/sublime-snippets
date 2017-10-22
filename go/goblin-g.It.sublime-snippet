@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+g.It("${1}", func() {
+	user := getUser()
+	r := authRequest("${2}", "${3}", data, user)
+	g.Assert(r.status).Equal(${4})
+})
+]]></content>
+<tabTrigger>go-goblin-g.It</tabTrigger>
+<scope>source.go</scope>
+</snippet>

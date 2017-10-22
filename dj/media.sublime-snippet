@@ -1,0 +1,13 @@
+<snippet>
+<content><![CDATA[
+class Media:
+    js = (
+        'admincustom/js/tiny_mce/tiny_mce.js',
+        'admincustom/js/settings.js',
+        'admincustom/js/a.js'
+    )
+    css = {'all':  ('admincustom/css/font-awesome.min.css',)}
+]]></content>
+<tabTrigger>dj-media</tabTrigger>
+<scope>source.python</scope>
+</snippet>

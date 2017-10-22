@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from django.db.models import SlugField
+]]></content>
+<tabTrigger>dj-SlugField</tabTrigger>
+<scope>source.python</scope>
+</snippet>

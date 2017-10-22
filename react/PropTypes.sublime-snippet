@@ -1,0 +1,30 @@
+<snippet>
+<content><![CDATA[
+Comp.propTypes = {
+    : PropTypes.object.isRequired,
+    : PropTypes.node,
+    : PropTypes.func,
+    : PropTypes.array,
+    : PropTypes.string,
+    : PropTypes.bool,
+    : PropTypes.number,
+    : PropTypes.element,
+    : PropTypes.any,
+    : PropTypes.instanceOf(SomeClass),
+    : PropTypes.oneOf(['Some1', 'Some2']),
+    : PropTypes.arrayOf(someArr),
+
+    : PropTypes.oneOfType([
+        PropTypes.string,
+        PropTypes.number
+    ]),
+        
+    : PropTypes.shape({
+        color: PropTypes.string,
+        number: PropTypes.number
+    })
+}
+]]></content>
+<tabTrigger>react-PropTypes</tabTrigger>
+<scope>source.js</scope>
+</snippet>

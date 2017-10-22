@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+(?P<pk>\d+)
+]]></content>
+<tabTrigger>dj-pk.urlregex</tabTrigger>
+<scope>source.python</scope>
+</snippet>

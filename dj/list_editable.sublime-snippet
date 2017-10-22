@@ -1,0 +1,6 @@
+<snippet>
+<content><![CDATA[
+list_editable = ('', '')
+]]></content>
+<tabTrigger>dj-list_editable</tabTrigger><scope>source.python</scope>
+</snippet>

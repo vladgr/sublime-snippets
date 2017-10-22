@@ -1,0 +1,13 @@
+<snippet>
+<content><![CDATA[
+email = models.EmailField(max_length=255, blank=True, null=True, unique=True, default=None)
+
+def save(self, *args, **kwargs):
+    if self.email is not None and self.email.strip() == '':
+        self.email = None
+
+    super().save(*args, **kwargs)
+]]></content>
+<tabTrigger>dj-email_null_unique</tabTrigger>
+<scope>source.python</scope>
+</snippet>

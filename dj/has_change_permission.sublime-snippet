@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+def has_change_permission(self, request, obj=None):
+    return False
+]]></content>
+<tabTrigger>dj-has_change_permission</tabTrigger><scope>source.python</scope>
+</snippet>

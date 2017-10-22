@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+class Media:
+    css = {'all': ('admincustom/css/font-awesome.min.css',)}
+]]></content>
+<tabTrigger>dj-font-awesome</tabTrigger>
+<scope>source.python</scope>
+</snippet>

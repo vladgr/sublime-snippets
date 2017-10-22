@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from email.mime.multipart import MIMEMultipart
+]]></content>
+<tabTrigger>dj-MIMEMultipart</tabTrigger>
+<scope>source.python</scope>
+</snippet>

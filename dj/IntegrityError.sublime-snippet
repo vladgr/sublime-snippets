@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from django.db import IntegrityError
+]]></content>
+<tabTrigger>dj-IntegrityError</tabTrigger>
+<scope>source.python</scope>
+</snippet>

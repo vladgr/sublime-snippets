@@ -1,0 +1,6 @@
+<snippet>
+<content><![CDATA[
+admin.site.unregister(Group)
+]]></content>
+<tabTrigger>dj-Group_unregister</tabTrigger><scope>source.python</scope>
+</snippet>

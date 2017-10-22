@@ -1,0 +1,6 @@
+<snippet>
+<content><![CDATA[
+from django.utils.encoding import force_text
+]]></content>
+<tabTrigger>dj-force_text</tabTrigger><scope>source.python</scope>
+</snippet>

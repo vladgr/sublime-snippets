@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from django.core.urlresolvers import resolve
+]]></content>
+<tabTrigger>dj-resolve</tabTrigger>
+<scope>source.python</scope>
+</snippet>

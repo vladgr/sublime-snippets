@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+from django.apps import apps
+MyModel = apps.get_model('myapp', 'MyModel')
+]]></content>
+<tabTrigger>dj-get_model</tabTrigger>
+<scope>source.python</scope>
+</snippet>

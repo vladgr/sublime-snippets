@@ -1,0 +1,6 @@
+<snippet>
+<content><![CDATA[
+from django.core.urlresolvers import reverse_lazy
+]]></content>
+<tabTrigger>dj-reverse_lazy</tabTrigger><scope>source.python</scope>
+</snippet>

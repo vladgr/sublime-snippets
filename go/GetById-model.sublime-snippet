@@ -1,0 +1,17 @@
+<snippet>
+<content><![CDATA[
+func (${2}m *${1}Manager) GetById(id int) *${1} {
+    ${2} := &${1}{}
+    err := db.Model(${2}).
+        Column("${3}.*").
+        Where("${3}.id = ?", id).
+        Select()
+    if err != nil {
+        return nil
+    }
+    return ${2}
+}
+]]></content>
+<tabTrigger>go-GetById-model</tabTrigger>
+<scope>source.go</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+<content><![CDATA[
+from django.contrib.auth import logout
+]]></content>
+<tabTrigger>dj-logout</tabTrigger><scope>source.python</scope>
+</snippet>

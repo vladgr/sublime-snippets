@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from django_countries.fields import CountryField
+]]></content>
+<tabTrigger>dj-CountryField</tabTrigger>
+<scope>source.python</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from rest_framework.generics import ListCreateAPIView
+]]></content>
+<tabTrigger>dj-ListCreateAPIView</tabTrigger>
+<scope>source.python</scope>
+</snippet>

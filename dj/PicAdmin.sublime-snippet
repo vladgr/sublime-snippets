@@ -1,0 +1,28 @@
+<snippet>
+<content><![CDATA[
+@admin.register(TestPic)
+class TestPicAdmin(admin.ModelAdmin):
+    list_display = (
+        'name',
+        'width',
+        'height',
+        'upload_pic',
+        'thumb',
+        'picext'
+    )
+    exclude = ('pic', 'picext')
+
+    if settings.PRODUCTION:
+        exclude += ('width', 'height')
+
+    class Media:
+        js = (
+            'admincustom/js/tiny_mce/tiny_mce.js',
+            'admincustom/js/settings.js',
+            'admincustom/js/a.js'
+        )
+        css = {'all': ('admincustom/css/font-awesome.min.css',)}
+]]></content>
+<tabTrigger>dj-PicAdmin</tabTrigger>
+<scope>source.python</scope>
+</snippet>

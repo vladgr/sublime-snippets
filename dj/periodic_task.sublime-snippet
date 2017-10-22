@@ -1,0 +1,6 @@
+<snippet>
+<content><![CDATA[
+from celery.decorators import periodic_task
+]]></content>
+<tabTrigger>dj-periodic_task</tabTrigger><scope>source.python</scope>
+</snippet>

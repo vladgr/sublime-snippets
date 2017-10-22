@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from rest_framework.generics import RetrieveDestroyAPIView
+]]></content>
+<tabTrigger>dj-RetrieveDestroyAPIView</tabTrigger>
+<scope>source.python</scope>
+</snippet>

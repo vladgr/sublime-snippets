@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from django.core.validators import MaxValueValidator
+]]></content>
+<tabTrigger>dj-MaxValueValidator</tabTrigger>
+<scope>source.python</scope>
+</snippet>

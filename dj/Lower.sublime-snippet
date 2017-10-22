@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from django.db.models.functions import Lower
+]]></content>
+<tabTrigger>dj-Lower</tabTrigger>
+<scope>source.python</scope>
+</snippet>

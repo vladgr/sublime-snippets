@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+{some.map((obj, index) => {
+                    
+})}
+]]></content>
+<tabTrigger>react-map</tabTrigger>
+<scope>source.js</scope>
+</snippet>

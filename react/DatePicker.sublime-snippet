@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+<DatePicker
+    customInput={<CustomInput />}
+    selected={this.state.startDate}
+    onChange={this.onChange} />
+]]></content>
+<tabTrigger>react-DatePicker</tabTrigger>
+<scope>source.js</scope>
+</snippet>

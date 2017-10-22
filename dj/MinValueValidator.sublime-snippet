@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from django.core.validators import MinValueValidator
+]]></content>
+<tabTrigger>dj-MinValueValidator</tabTrigger>
+<scope>source.python</scope>
+</snippet>

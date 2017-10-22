@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+import {observable} from 'mobx'
+]]></content>
+<tabTrigger>react-observable-mobx-react</tabTrigger>
+<scope>source.js</scope>
+</snippet>

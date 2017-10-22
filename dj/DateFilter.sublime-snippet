@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from django_filters import DateFilter
+]]></content>
+<tabTrigger>dj-DateFilter</tabTrigger>
+<scope>source.python</scope>
+</snippet>

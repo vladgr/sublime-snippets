@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+serializer.is_valid(raise_exception=True)
+]]></content>
+<tabTrigger>dj-serializer.is_valid</tabTrigger>
+<scope>source.python</scope>
+</snippet>

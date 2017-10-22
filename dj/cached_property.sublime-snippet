@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from django.utils.functional import cached_property
+]]></content>
+<tabTrigger>dj-cached_property</tabTrigger>
+<scope>source.python</scope>
+</snippet>

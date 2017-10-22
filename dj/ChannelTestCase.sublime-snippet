@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from channels.tests import ChannelTestCase
+]]></content>
+<tabTrigger>dj-ChannelTestCase</tabTrigger>
+<scope>source.python</scope>
+</snippet>

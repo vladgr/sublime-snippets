@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from django.db.models.signals import pre_delete
+]]></content>
+<tabTrigger>dj-pre_delete</tabTrigger>
+<scope>source.python</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from django.db.models import EmailField
+]]></content>
+<tabTrigger>dj-EmailField</tabTrigger>
+<scope>source.python</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+func (${2} *${1}) RefreshFromDb() {
+	updated := new(${1}Manager).GetById(${2}.Id)
+	*${2} = *updated
+}
+]]></content>
+<tabTrigger>go-RefreshFromDb</tabTrigger>
+<scope>source.go</scope>
+</snippet>

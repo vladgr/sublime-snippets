@@ -1,0 +1,6 @@
+<snippet>
+<content><![CDATA[
+from celery.task.schedules import crontab
+]]></content>
+<tabTrigger>dj-crontab</tabTrigger><scope>source.python</scope>
+</snippet>

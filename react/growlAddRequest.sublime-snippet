@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+this.props.growlAddRequest({
+    id: createUUID(),
+    message: 'User has been invited.',
+    'type': 'success'
+})
+]]></content>
+<tabTrigger>react-growlAddRequest</tabTrigger>
+<scope>source.js</scope>
+</snippet>

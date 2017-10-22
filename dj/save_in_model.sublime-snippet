@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+def save(self, *args, **kwargs):
+    if not self.pk:
+        pass
+    super().save(*args, **kwargs)
+]]></content>
+<tabTrigger>dj-save_in_model</tabTrigger><scope>source.python</scope>
+</snippet>

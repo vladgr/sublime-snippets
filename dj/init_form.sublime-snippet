@@ -1,0 +1,17 @@
+<snippet>
+<content><![CDATA[
+def __init__(self, *args, **kwargs):
+    self.request = kwargs.pop('request', None)
+    super().__init__(*args, **kwargs)
+    instance = getattr(self, 'instance', None)
+    if instance and instance.pk:
+        self.fields['url'].required = False
+        self.fields['url'].widget.attrs['disabled'] = 'disabled'
+        self.fields['url'].widget.attrs['value'] = instance.url
+
+        self.fields['tpl'].widget.attrs['readonly'] = True
+        self.fields['tpl'].widget.attrs['class'] = 'some class'
+]]></content>
+<tabTrigger>dj-init_form</tabTrigger>
+<scope>source.python</scope>
+</snippet>

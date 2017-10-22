@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+messages.warning(request, '')
+]]></content>
+<tabTrigger>dj-message_warning</tabTrigger>
+<scope>source.python</scope>
+</snippet>

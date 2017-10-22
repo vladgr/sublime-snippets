@@ -1,0 +1,6 @@
+<snippet>
+<content><![CDATA[
+from django.contrib.auth.decorators import login_required
+]]></content>
+<tabTrigger>dj-login_required</tabTrigger><scope>source.python</scope>
+</snippet>

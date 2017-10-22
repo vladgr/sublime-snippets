@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+def __str__(self):
+    return self.
+]]></content>
+<tabTrigger>dj-__str__</tabTrigger><scope>source.python</scope>
+</snippet>

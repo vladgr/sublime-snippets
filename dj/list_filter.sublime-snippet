@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+list_filter = ('',)
+]]></content>
+<tabTrigger>dj-list_filter</tabTrigger>
+<scope>source.python</scope>
+</snippet>

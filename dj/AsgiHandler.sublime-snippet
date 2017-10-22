@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from channels.handler import AsgiHandler
+]]></content>
+<tabTrigger>dj-AsgiHandler</tabTrigger>
+<scope>source.python</scope>
+</snippet>

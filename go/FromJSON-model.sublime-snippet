@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+func (${2} *${1}Manager) FromJSON(js string) []*${1} {
+    json.Unmarshal([]byte(js), ${2})
+    return ${2}.Items
+}
+]]></content>
+<tabTrigger>go-FromJSON-model</tabTrigger>
+<scope>source.go</scope>
+</snippet>

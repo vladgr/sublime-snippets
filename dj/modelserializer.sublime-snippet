@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+class ${1}Serializer(serializers.ModelSerializer):
+    class Meta:
+        model = ${1}
+        fields = (
+        )
+]]></content>
+<tabTrigger>dj-modelserializer</tabTrigger>
+<scope>source.python</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+@pytest.mark.django_db
+]]></content>
+<tabTrigger>dj-pytest.mark.django_db</tabTrigger>
+<scope>source.python</scope>
+</snippet>

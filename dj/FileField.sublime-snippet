@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from django.db.models import FileField
+]]></content>
+<tabTrigger>dj-FileField</tabTrigger>
+<scope>source.python</scope>
+</snippet>

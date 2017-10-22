@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from urllib.parse import urlparse
+]]></content>
+<tabTrigger>py-urlparse</tabTrigger>
+<scope>source.python</scope>
+</snippet>

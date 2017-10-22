@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+class Meta:
+    app_label = ''
+    verbose_name = ''
+    verbose_name_plural = ''
+    ordering = ['']
+]]></content>
+<tabTrigger>dj-meta</tabTrigger><scope>source.python</scope>
+</snippet>

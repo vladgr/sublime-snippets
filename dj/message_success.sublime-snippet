@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+messages.success(request, '')
+]]></content>
+<tabTrigger>dj-message_success</tabTrigger>
+<scope>source.python</scope>
+</snippet>

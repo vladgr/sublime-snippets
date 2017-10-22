@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+componentWillReceiveProps(nextProps){
+
+}
+]]></content>
+<tabTrigger>react-componentWillReceiveProps</tabTrigger>
+<scope>source.js</scope>
+</snippet>

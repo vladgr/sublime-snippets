@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+settings.AUTH_USER_MODEL
+]]></content>
+<tabTrigger>dj-AUTH_USER_MODEL</tabTrigger>
+<scope>source.python</scope>
+</snippet>

@@ -1,0 +1,25 @@
+<snippet>
+<content><![CDATA[
+func (${2} *${1}) Save() error {
+    if ${2}.Id == 0 {
+        if err := db.Insert(${2}); err != nil {
+            return err
+        }
+    } else {
+        if err := db.Update(${2}); err != nil {
+            return err
+        }
+    }
+    return nil
+}
+
+func (${2} *${1}) Delete() error {
+    if err := db.Delete(${2}); err != nil {
+        return err
+    }
+    return nil
+}
+]]></content>
+<tabTrigger>go-model-methods</tabTrigger>
+<scope>source.go</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+<content><![CDATA[
+@admin.register()
+]]></content>
+<tabTrigger>dj-admin.register</tabTrigger><scope>source.python</scope>
+</snippet>

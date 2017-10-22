@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+def get_model_perms(self, request):
+    """Hide from index page"""
+    return {}
+]]></content>
+<tabTrigger>dj-get_model_perms</tabTrigger>
+<scope>source.python</scope>
+</snippet>

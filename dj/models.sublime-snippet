@@ -1,0 +1,6 @@
+<snippet>
+<content><![CDATA[
+from django.db import models
+]]></content>
+<tabTrigger>dj-models</tabTrigger><scope>source.python</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from django.template.loader import get_template
+]]></content>
+<tabTrigger>dj-get_template</tabTrigger>
+<scope>source.python</scope>
+</snippet>

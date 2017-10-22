@@ -1,0 +1,12 @@
+<snippet>
+<content><![CDATA[
+def clean(self):
+    cleaned_data = super().clean()
+    name = cleaned_data.get('name')
+    if some:
+        raise forms.ValidationError('error')
+    return cleaned_data
+]]></content>
+<tabTrigger>dj-clean_form</tabTrigger>
+<scope>source.python</scope>
+</snippet>

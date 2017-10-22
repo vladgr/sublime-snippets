@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+componentDidMount(){
+    
+}
+]]></content>
+<tabTrigger>react-componentDidMount</tabTrigger>
+<scope>source.js</scope>
+</snippet>

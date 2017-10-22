@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+def perform_destroy(self, instance):
+    pass
+]]></content>
+<tabTrigger>dj-perform_destroy</tabTrigger>
+<scope>source.python</scope>
+</snippet>

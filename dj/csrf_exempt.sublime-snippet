@@ -1,0 +1,6 @@
+<snippet>
+<content><![CDATA[
+from django.views.decorators.csrf import csrf_exempt
+]]></content>
+<tabTrigger>dj-csrf_exempt</tabTrigger><scope>source.python</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+<content><![CDATA[
+from django.contrib.auth.models import Group
+]]></content>
+<tabTrigger>dj-Group</tabTrigger><scope>source.python</scope>
+</snippet>

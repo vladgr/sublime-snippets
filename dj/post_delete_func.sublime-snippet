@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+@receiver(post_delete, sender=MyFile)
+def delete_myfile(sender, instance, **kwargs):
+    instance.del_my_file()
+]]></content>
+<tabTrigger>dj-post_delete_func</tabTrigger>
+<scope>source.python</scope>
+</snippet>

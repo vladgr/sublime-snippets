@@ -1,0 +1,12 @@
+<snippet>
+<content><![CDATA[
+def save_model(self, request, obj, form, change):
+    # если change == True -  изменение экземпляра
+    # если change == False - создание экземпляра
+    # обязательно на сделать сохранение, независимо
+    # от логики которую применяем
+
+    obj.save()
+]]></content>
+<tabTrigger>dj-save_in_admin</tabTrigger><scope>source.python</scope>
+</snippet>

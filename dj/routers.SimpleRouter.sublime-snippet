@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+router = routers.SimpleRouter()
+]]></content>
+<tabTrigger>dj-routers.SimpleRouter</tabTrigger>
+<scope>source.python</scope>
+</snippet>

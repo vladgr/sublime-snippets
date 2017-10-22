@@ -1,0 +1,33 @@
+<snippet>
+<content><![CDATA[
+from django.db.models import Manager
+from django.db.models import Model
+from django.contrib import admin
+
+
+class ${1}Manager(Manager):
+    pass
+
+
+class ${1}(Model):
+    pass
+
+    objects = ${1}Manager()
+
+    class Meta:
+        app_label = ''
+        verbose_name = ''
+        verbose_name_plural = ''
+        ordering = ['']
+
+    def __str__(self):
+        return self.
+
+
+@admin.register(${1})
+class ${1}Admin(admin.ModelAdmin):
+    list_display = ('', )
+]]></content>
+<tabTrigger>dj-model_template</tabTrigger>
+<scope>source.python</scope>
+</snippet>

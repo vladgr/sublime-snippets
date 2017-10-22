@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+def has_object_permission(self, request, view, obj):
+    # view kwargs
+]]></content>
+<tabTrigger>dj-has_object_permission</tabTrigger>
+<scope>source.python</scope>
+</snippet>

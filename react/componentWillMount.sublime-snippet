@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+componentWillMount(){
+    
+}
+]]></content>
+<tabTrigger>react-componentWillMount</tabTrigger>
+<scope>source.js</scope>
+</snippet>

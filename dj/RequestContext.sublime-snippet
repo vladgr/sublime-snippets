@@ -1,0 +1,6 @@
+<snippet>
+<content><![CDATA[
+from django.template import RequestContext
+]]></content>
+<tabTrigger>dj-RequestContext</tabTrigger><scope>source.python</scope>
+</snippet>

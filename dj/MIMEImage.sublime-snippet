@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from email.mime.image import MIMEImage
+]]></content>
+<tabTrigger>dj-MIMEImage</tabTrigger>
+<scope>source.python</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from rest_framework.permissions import IsAdminUser
+]]></content>
+<tabTrigger>dj-IsAdminUser</tabTrigger>
+<scope>source.python</scope>
+</snippet>

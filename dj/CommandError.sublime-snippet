@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from django.core.management.base import CommandError
+]]></content>
+<tabTrigger>dj-CommandError</tabTrigger>
+<scope>source.python</scope>
+</snippet>

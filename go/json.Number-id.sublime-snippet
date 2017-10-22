@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+id, _ := strconv.Atoi(string(r.result["Id"].(json.Number)))
+]]></content>
+<tabTrigger>go-json.Number-id</tabTrigger>
+<scope>source.go</scope>
+</snippet>

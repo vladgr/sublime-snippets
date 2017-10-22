@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+def get_admin_change_url(self):
+    s = 'admin:{0}_{1}_change'.format(
+        self._meta.app_label, self._meta.model_name)
+    return reverse(s, args=(self.pk,))
+]]></content>
+<tabTrigger>dj-get_admin_change_url</tabTrigger><scope>source.python</scope>
+</snippet>

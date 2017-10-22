@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from django.contrib.auth.models import User
+]]></content>
+<tabTrigger>dj-User</tabTrigger>
+<scope>source.python</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from channels.generic.websockets import WebsocketConsumer
+]]></content>
+<tabTrigger>dj-WebsocketConsumer</tabTrigger>
+<scope>source.python</scope>
+</snippet>

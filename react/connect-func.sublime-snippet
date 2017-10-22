@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+export default connect(mapStateToProps, {
+  myMethod1,
+  myMethod2
+})(myComponent)
+]]></content>
+<tabTrigger>react-connect-func</tabTrigger>
+<scope>source.js</scope>
+</snippet>

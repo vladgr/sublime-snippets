@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from django.db.models import CASCADE
+]]></content>
+<tabTrigger>dj-CASCADE</tabTrigger>
+<scope>source.python</scope>
+</snippet>

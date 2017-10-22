@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from django.core.files.storage import default_storage
+]]></content>
+<tabTrigger>dj-default_storage</tabTrigger>
+<scope>source.python</scope>
+</snippet>

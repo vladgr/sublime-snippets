@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from web.services.helpers import rs_singleton
+]]></content>
+<tabTrigger>dj-rs_singleton</tabTrigger>
+<scope>source.python</scope>
+</snippet>

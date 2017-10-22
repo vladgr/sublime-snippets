@@ -1,0 +1,25 @@
+<snippet>
+<content><![CDATA[
+func Test${1}(t *testing.T) {
+	config.CleanDB()
+	g := Goblin(t)
+
+	var getData = func() map[string]interface{} {
+		return gin.H{
+			"": "",
+		}
+	}
+
+	g.Describe("${2}", func() {
+
+		g.It("${3}", func() {
+			data := getData()
+			g.Assert(1).Equal(1)
+
+		})
+	})
+}
+]]></content>
+<tabTrigger>go-goblin-test</tabTrigger>
+<scope>source.go</scope>
+</snippet>

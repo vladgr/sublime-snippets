@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from django.core.mail import EmailMultiAlternatives
+]]></content>
+<tabTrigger>dj-EmailMultiAlternative</tabTrigger>
+<scope>source.python</scope>
+</snippet>

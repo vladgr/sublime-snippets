@@ -1,0 +1,16 @@
+<snippet>
+<content><![CDATA[
+def __init__(self, *args, **kwargs):
+    self.request = kwargs.pop('request', None)
+    super().__init__(*args, **kwargs)
+
+    l = ['username', 'password']
+    for key in l:
+        self.fields[key].error_messages = {
+            'required': self.fields[key].label
+            + str(_(' field is required.'))
+        }
+]]></content>
+<tabTrigger>dj-forms_override_required</tabTrigger>
+<scope>source.python</scope>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+static get defaultProps() {
+    return {
+        value: '',
+    }
+}
+]]></content>
+<tabTrigger>react-defaultProps</tabTrigger>
+<scope>source.js</scope>
+</snippet>

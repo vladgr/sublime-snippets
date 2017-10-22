@@ -1,0 +1,6 @@
+<snippet>
+<content><![CDATA[
+{{ $1 }}
+]]></content>
+<tabTrigger>dh-var</tabTrigger>
+</snippet>

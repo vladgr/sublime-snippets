@@ -1,0 +1,6 @@
+<snippet>
+<content><![CDATA[
+from django.conf import settings
+]]></content>
+<tabTrigger>dj-settings</tabTrigger><scope>source.python</scope>
+</snippet>

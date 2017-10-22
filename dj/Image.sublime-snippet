@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from PIL import Image
+]]></content>
+<tabTrigger>dj-Image</tabTrigger>
+<scope>source.python</scope>
+</snippet>

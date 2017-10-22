@@ -1,0 +1,80 @@
+<snippet>
+<content><![CDATA[
+package models
+
+type ${1}Manager struct{
+    Items []*${1} `json:"items"`
+}
+
+func (${2}m *${1}Manager) FromJSON(js string) []*${1} {
+    json.Unmarshal([]byte(js), ${2}m)
+    return ${2}m.Items
+}
+
+func (${2}m *${1}Manager) Create() (*${1}, error) {
+    ${2} := &${1}{}
+    if err := ${2}.Save(); err != nil{
+        return nil, NewInternalError("${1}Manager.Create", err.Error())
+    }
+    return ${2}, nil
+}
+
+func (${2}m *${1}Manager) GetById(id int) *${1} {
+    ${2} := &${1}{}
+    err := db.Model(${2}).
+        Column("${3}.*").
+        Where("${3}.id = ?", id).
+        Select()
+    if err != nil {
+        return nil
+    }
+    return ${2}
+}
+
+func (${2}m *${1}Manager) GetByGuid(guid string) *${1} {
+    ${2} := &${1}{}
+    err := db.Model(${2}).
+        Column("${3}.*").
+        Where("${3}.guid = ?", guid).
+        Select()
+    if err != nil {
+        return nil
+    }
+    return ${2}
+}
+
+
+type ${1} struct {
+    Id        int
+    Arr       []string `pg: ",array"`
+    Some      int      `sql:",notnull"`
+}
+
+func (${2} *${1}) Save() error {
+    if ${2}.Id == 0 {
+        if err := db.Insert(${2}); err != nil {
+            return err
+        }
+    } else {
+        if err := db.Update(${2}); err != nil {
+            return err
+        }
+    }
+    return nil
+}
+
+func (${2} *${1}) Delete() error {
+    if err := db.Delete(${2}); err != nil {
+        return err
+    }
+    return nil
+}
+
+func (${2} *${1}) RefreshFromDb() {
+    updated := new(${1}Manager).GetById(${2}.Id)
+    *${2} = *updated
+}
+]]></content>
+<tabTrigger>go-model-template</tabTrigger>
+<scope>source.go</scope>
+</snippet>

@@ -1,0 +1,16 @@
+<snippet>
+<content><![CDATA[
+@action
+${1} = async () => {
+    const url = '/v1/${2}'
+    let result = await apiCall(url, '${3}', {}, true)
+    if (result.isError){
+        this.errors = result.data
+        return
+    }
+    
+}
+]]></content>
+<tabTrigger>react-action-async</tabTrigger>
+<scope>source.js</scope>
+</snippet>

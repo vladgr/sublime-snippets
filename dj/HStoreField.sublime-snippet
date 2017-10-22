@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from django.contrib.postgres.fields import HStoreField
+]]></content>
+<tabTrigger>dj-HStoreField</tabTrigger>
+<scope>source.python</scope>
+</snippet>

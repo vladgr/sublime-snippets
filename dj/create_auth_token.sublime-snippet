@@ -1,0 +1,12 @@
+<snippet>
+<content><![CDATA[
+@receiver(post_save, sender=User)
+def create_auth_token(sender, instance=None, created=False, **kwargs):
+    if created:
+        Token.objects.create(user=instance)
+        instance.encrypted_id = instance.encrypt(instance.id)
+        instance.save()
+]]></content>
+<tabTrigger>dj-create_auth_token</tabTrigger>
+<scope>source.python</scope>
+</snippet>

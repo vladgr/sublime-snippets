@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from django.db.models import Count
+]]></content>
+<tabTrigger>dj-Count</tabTrigger>
+<scope>source.python</scope>
+</snippet>

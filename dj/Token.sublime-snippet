@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from rest_framework.authtoken.models import Token
+]]></content>
+<tabTrigger>dj-Token</tabTrigger>
+<scope>source.python</scope>
+</snippet>

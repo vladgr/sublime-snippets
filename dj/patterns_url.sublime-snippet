@@ -1,0 +1,6 @@
+<snippet>
+<content><![CDATA[
+from django.conf.urls import patterns, include, url
+]]></content>
+<tabTrigger>dj-patterns_url</tabTrigger><scope>source.python</scope>
+</snippet>

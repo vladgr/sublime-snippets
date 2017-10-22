@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from django.views.decorators.http import require_POST
+]]></content>
+<tabTrigger>dj-require_POST</tabTrigger>
+<scope>source.python</scope>
+</snippet>

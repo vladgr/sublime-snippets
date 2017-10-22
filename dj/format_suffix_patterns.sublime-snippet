@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from rest_framework.urlpatterns import format_suffix_patterns
+]]></content>
+<tabTrigger>dj-format_suffix_patterns</tabTrigger>
+<scope>source.python</scope>
+</snippet>

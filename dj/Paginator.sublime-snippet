@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from django.core.paginator import Paginator
+]]></content>
+<tabTrigger>dj-Paginator</tabTrigger>
+<scope>source.python</scope>
+</snippet>

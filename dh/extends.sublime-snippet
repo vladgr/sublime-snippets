@@ -1,0 +1,6 @@
+<snippet>
+<content><![CDATA[
+{% extends '$1.html' %}
+]]></content>
+<tabTrigger>dh-extends</tabTrigger>
+</snippet>

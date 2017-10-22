@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+if err := form.Validate(); err != nil {
+		c.Errors(err)
+		return
+	}
+]]></content>
+<tabTrigger>go-form.Validate-err</tabTrigger>
+<scope>source.go</scope>
+</snippet>
