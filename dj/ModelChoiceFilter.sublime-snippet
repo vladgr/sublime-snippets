@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from django_filters import ModelChoiceFilter
+]]></content>
+<tabTrigger>dj-ModelChoiceFilter</tabTrigger>
+<scope>source.python</scope>
+</snippet>

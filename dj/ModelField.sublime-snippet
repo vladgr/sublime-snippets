@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from rest_framework.serializers import ModelField
+]]></content>
+<tabTrigger>dj-ModelField</tabTrigger>
+<scope>source.python</scope>
+</snippet>

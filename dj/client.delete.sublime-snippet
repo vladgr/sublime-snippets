@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+url = self.get_url('${1}')
+r = client.delete(url)
+assert r.status_code == 204
+]]></content>
+<tabTrigger>dj-client.delete</tabTrigger>
+<scope>source.python</scope>
+</snippet>

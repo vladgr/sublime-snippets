@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+${1}_id = ModelField(model_field=${2}._meta.get_field('${1}'))
+]]></content>
+<tabTrigger>dj-ModelField_meta</tabTrigger>
+<scope>source.python</scope>
+</snippet>

@@ -2,9 +2,9 @@
 <content><![CDATA[
 data = json.dumps(d)
 url = self.get_url('${1}')
-r = client.put(url, data, content_type='application/json')
-assert r.status_code == 200
+r = client.post(url, data, content_type='application/json')
+assert r.status_code == ${2}
 ]]></content>
-<tabTrigger>dj-client.put</tabTrigger>
+<tabTrigger>dj-client_post</tabTrigger>
 <scope>source.python</scope>
 </snippet>

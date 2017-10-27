@@ -1,10 +1,9 @@
 <snippet>
 <content><![CDATA[
-data = json.dumps(d)
 url = self.get_url('${1}')
-r = client.put(url, data, content_type='application/json')
+r = client.get(url)
 assert r.status_code == 200
 ]]></content>
-<tabTrigger>dj-client.put</tabTrigger>
+<tabTrigger>dj-client.get</tabTrigger>
 <scope>source.python</scope>
 </snippet>

@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from rest_framework.pagination import LimitOffsetPagination
+]]></content>
+<tabTrigger>dj-LimitOffsetPagination</tabTrigger>
+<scope>source.python</scope>
+</snippet>
