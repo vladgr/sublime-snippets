@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+@pytest.mark.django_db
+def setup(self):
+    pass
+]]></content>
+<tabTrigger>dj-setup_in_tests</tabTrigger>
+<scope>source.python</scope>
+</snippet>

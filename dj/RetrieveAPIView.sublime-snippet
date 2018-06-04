@@ -1,6 +1,6 @@
 <snippet>
 <content><![CDATA[
-generics.RetrieveAPIView
+from rest_framework.generics import RetrieveAPIView
 ]]></content>
 <tabTrigger>dj-RetrieveAPIView</tabTrigger>
 <scope>source.python</scope>

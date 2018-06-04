@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+const { ${1} } = this.props
+]]></content>
+<tabTrigger>react-this_props</tabTrigger>
+<scope>source.js</scope>
+</snippet>

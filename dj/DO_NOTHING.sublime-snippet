@@ -1,7 +1,7 @@
 <snippet>
 <content><![CDATA[
-s.is_valid(raise_exception=True)
+from django.db.models import DO_NOTHING
 ]]></content>
-<tabTrigger>dj-serializer.is_valid</tabTrigger>
+<tabTrigger>dj-DO_NOTHING</tabTrigger>
 <scope>source.python</scope>
 </snippet>

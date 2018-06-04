@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from rest_framework.settings import api_settings
+]]></content>
+<tabTrigger>dj-api_settings</tabTrigger>
+<scope>source.python</scope>
+</snippet>

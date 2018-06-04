@@ -1,7 +1,7 @@
 <snippet>
 <content><![CDATA[
-s.is_valid(raise_exception=True)
+null=True, default=None, blank=True
 ]]></content>
-<tabTrigger>dj-serializer.is_valid</tabTrigger>
+<tabTrigger>dj-ndb</tabTrigger>
 <scope>source.python</scope>
 </snippet>

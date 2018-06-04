@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from rest_framework.views import GenericAPIView
+]]></content>
+<tabTrigger>dj-GenericAPIView</tabTrigger>
+<scope>source.python</scope>
+</snippet>

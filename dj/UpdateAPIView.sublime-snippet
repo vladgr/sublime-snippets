@@ -1,6 +1,6 @@
 <snippet>
 <content><![CDATA[
-generics.UpdateAPIView
+from rest_framework.generics import UpdateAPIView
 ]]></content>
 <tabTrigger>dj-UpdateAPIView</tabTrigger>
 <scope>source.python</scope>
