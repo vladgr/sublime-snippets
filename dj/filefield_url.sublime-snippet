@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+@property
+def ${1}_url(self):
+    if not self.${1} or not self.${1}.name:
+        return None
+    return '{}/{}'.format(settings.BUCKET_URL, self.${1}.name)
+]]></content>
+<tabTrigger>dj-filefield_url</tabTrigger>
+<scope>source.python</scope>
+</snippet>

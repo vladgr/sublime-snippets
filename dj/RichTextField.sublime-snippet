@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from ckeditor.fields import RichTextField
+]]></content>
+<tabTrigger>dj-RichTextField</tabTrigger>
+<scope>source.python</scope>
+</snippet>

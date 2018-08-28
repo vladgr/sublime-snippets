@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+import { default as MobileDetect } from 'mobile-detect'
+const md = new MobileDetect(window.navigator.userAgent)
+md.mobile()
+]]></content>
+<tabTrigger>react-mobile</tabTrigger>
+<scope>source.js</scope>
+</snippet>

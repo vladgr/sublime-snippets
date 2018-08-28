@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from django.urls.resolvers import URLPattern
+]]></content>
+<tabTrigger>dj-URLPattern</tabTrigger>
+<scope>source.python</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+class ${1}Inline(admin.TabularInline):
+    model = ${1}
+    fields = ('', '')
+    extra = 0
+]]></content>
+<tabTrigger>dj-Inline_admin</tabTrigger>
+<scope>source.python</scope>
+</snippet>

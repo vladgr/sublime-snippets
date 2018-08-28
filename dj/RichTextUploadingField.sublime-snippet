@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+from ckeditor_uploader.fields import RichTextUploadingField
+]]></content>
+<tabTrigger>dj-RichTextUploadingField</tabTrigger>
+<scope>source.python</scope>
+</snippet>

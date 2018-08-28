@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+constructor(props){
+    super(props)
+    this.formRef = React.createRef()
+}
+]]></content>
+<tabTrigger>react-constructor</tabTrigger>
+<scope>source.js</scope>
+</snippet>
